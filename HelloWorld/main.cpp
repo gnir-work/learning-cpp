@@ -1,9 +1,8 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Please enter a message to display: ";
-    std::string message{};
-    std::cin >> message;
-    std::cout << "You entered: " << message;
-    return 0;
+    int userInput{};
+    std::cout << "Please enter a nuber:";
+    std::cin >> userInput;
+    std::cout << "You number twice two is " << userInput * 2;
 }
