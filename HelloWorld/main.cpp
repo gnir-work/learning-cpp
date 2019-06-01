@@ -1,5 +1,6 @@
 #include <iostream>
-#include "math.h"
+#include "myMath.h"
+#include "consts.h"
 
 int getValueFromUser(const std::string &userPrompt);
 
@@ -11,7 +12,7 @@ int main() {
 
 int getValueFromUser(const std::string &userPrompt) {
     int userInput{0};
-    std::cout << userPrompt << ": ";
+    std::cout << userPrompt << HelloWorldConsts::userPromptSuffix;
     std::cin >> userInput;
     return userInput;
 }
