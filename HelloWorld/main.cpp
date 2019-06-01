@@ -1,8 +1,17 @@
 #include <iostream>
 
-int main() {
-    int userInput{};
-    std::cout << "Please enter a nuber:";
+int getValueFromUser(const std::string& userPrompt) {
+    int userInput{0};
+    std::cout << userPrompt;
     std::cin >> userInput;
-    std::cout << "You number twice two is " << userInput * 2;
+    return userInput;
+}
+
+void printNumberTimesTwo(int number) {
+    std::cout << number * 2;
+}
+
+int main() {
+    int userValue = getValueFromUser("Please enter a value");
+    printNumberTimesTwo(userValue);
 }
