@@ -1,8 +1,7 @@
 #include <iostream>
+#include "math.h"
 
 int getValueFromUser(const std::string &userPrompt);
-
-int add(int x, int y);
 
 int main() {
     int userValue = getValueFromUser("Please enter a value");
