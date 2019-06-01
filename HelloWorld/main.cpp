@@ -1,5 +1,13 @@
 #include <iostream>
 
+int getValueFromUser(const std::string& userPrompt);
+void printNumberTimesTwo(int number);
+
+int main() {
+    int userValue = getValueFromUser("Please enter a value");
+    printNumberTimesTwo(userValue);
+}
+
 int getValueFromUser(const std::string& userPrompt) {
     int userInput{0};
     std::cout << userPrompt;
@@ -9,9 +17,4 @@ int getValueFromUser(const std::string& userPrompt) {
 
 void printNumberTimesTwo(int number) {
     std::cout << number * 2;
-}
-
-int main() {
-    int userValue = getValueFromUser("Please enter a value");
-    printNumberTimesTwo(userValue);
 }
