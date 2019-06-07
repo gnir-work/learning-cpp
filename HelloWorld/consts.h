@@ -8,6 +8,6 @@
 #include <string>
 
 namespace HelloWorldConsts {
-    constexpr char userPromptSuffix[] = ": ";
+    extern const char userPromptSuffix[];
 }
 #endif //HELLOWORLD_CONSTS_H
