@@ -1,0 +1,3 @@
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/cmake-build-debug/CMakeFiles/basic_linux_keysniffer.dir
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/cmake-build-debug/CMakeFiles/edit_cache.dir
