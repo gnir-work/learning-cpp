@@ -18,7 +18,13 @@ namespace KeyboardEventReader {
 
     /**
      * Listens to the keyboard event file until there is a key press (all other events are ignored, check input.h
-     * for a reference to the other events),
+     * for a reference to the other events), please note that only key down and key hold events are
+     * supported, key up event is ignored.
+     * It is possible to distinct between the different key events using the value field when
+     * value 0: key up
+     * value 1: key down
+     * value 2: key hold
+     * @see KeyboardEventReader::KeyboardEventTypes
      * Afterwards the function creates an input_event struct for the given event
      * and returns it.
      * @param keyboardEventFile A stream to the key board event file which can be found using getKeyboardEventFileStream

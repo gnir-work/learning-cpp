@@ -26,11 +26,13 @@ namespace KeyboardEventReader {
         }
     }
 
-    input_event getNextKeyPressEvent(std::ifstream& keyboardEventFile) {
+    input_event getNextKeyPressEvent(std::ifstream &keyboardEventFile) {
         input_event newEvent{};
         do {
-            keyboardEventFile.read((char *)&newEvent, sizeof(input_event));
-        } while (newEvent.type != EV_KEY);
+            keyboardEventFile.read((char *) &newEvent, sizeof(input_event));
+        } while (newEvent.type != EV_KEY ||
+                (newEvent.value != static_cast<int>(KeyboardEventReader::KeyboardEventTypes::DOWN) &&
+                 newEvent.value != static_cast<int>(KeyboardEventReader::KeyboardEventTypes::HOLD)));
         return newEvent;
     }
 }
