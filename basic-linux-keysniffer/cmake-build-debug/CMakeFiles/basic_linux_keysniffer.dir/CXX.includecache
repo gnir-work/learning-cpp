@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/KeyboardEventReader.h
+fstream
+-
+/usr/include/linux/input.h
+-
+
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/main.cpp
+iostream
+-
+io/KeyboardEventReader.h
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/KeyboardEventReader.h
+
+/usr/include/linux/input-event-codes.h
+
+/usr/include/linux/input.h
+sys/time.h
+-
+sys/ioctl.h
+-
+sys/types.h
+-
+linux/types.h
+-
+input-event-codes.h
+/usr/include/linux/input-event-codes.h
+
