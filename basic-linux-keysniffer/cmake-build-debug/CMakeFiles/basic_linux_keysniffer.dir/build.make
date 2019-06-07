@@ -70,18 +70,18 @@ CMakeFiles/basic_linux_keysniffer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basic_linux_keysniffer.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gnir/Code/learning-cpp/basic-linux-keysniffer/main.cpp -o CMakeFiles/basic_linux_keysniffer.dir/main.cpp.s
 
-CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.o: CMakeFiles/basic_linux_keysniffer.dir/flags.make
-CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.o: ../io/KeyboardEventReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gnir/Code/learning-cpp/basic-linux-keysniffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.o -c /home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/KeyboardEventReader.cpp
+CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.o: CMakeFiles/basic_linux_keysniffer.dir/flags.make
+CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.o: ../io/keyboardEventReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gnir/Code/learning-cpp/basic-linux-keysniffer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.o -c /home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/keyboardEventReader.cpp
 
-CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/KeyboardEventReader.cpp > CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.i
+CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/keyboardEventReader.cpp > CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.i
 
-CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/KeyboardEventReader.cpp -o CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.s
+CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/keyboardEventReader.cpp -o CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.s
 
 CMakeFiles/basic_linux_keysniffer.dir/io/consts.cpp.o: CMakeFiles/basic_linux_keysniffer.dir/flags.make
 CMakeFiles/basic_linux_keysniffer.dir/io/consts.cpp.o: ../io/consts.cpp
@@ -112,7 +112,7 @@ CMakeFiles/basic_linux_keysniffer.dir/utils/keyboardEventUtils.cpp.s: cmake_forc
 # Object files for target basic_linux_keysniffer
 basic_linux_keysniffer_OBJECTS = \
 "CMakeFiles/basic_linux_keysniffer.dir/main.cpp.o" \
-"CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.o" \
+"CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.o" \
 "CMakeFiles/basic_linux_keysniffer.dir/io/consts.cpp.o" \
 "CMakeFiles/basic_linux_keysniffer.dir/utils/keyboardEventUtils.cpp.o"
 
@@ -120,7 +120,7 @@ basic_linux_keysniffer_OBJECTS = \
 basic_linux_keysniffer_EXTERNAL_OBJECTS =
 
 basic_linux_keysniffer: CMakeFiles/basic_linux_keysniffer.dir/main.cpp.o
-basic_linux_keysniffer: CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.o
+basic_linux_keysniffer: CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.o
 basic_linux_keysniffer: CMakeFiles/basic_linux_keysniffer.dir/io/consts.cpp.o
 basic_linux_keysniffer: CMakeFiles/basic_linux_keysniffer.dir/utils/keyboardEventUtils.cpp.o
 basic_linux_keysniffer: CMakeFiles/basic_linux_keysniffer.dir/build.make

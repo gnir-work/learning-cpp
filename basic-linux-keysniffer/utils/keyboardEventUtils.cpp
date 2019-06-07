@@ -48,8 +48,64 @@ namespace KeyboardEventUtils {
                return "o";
            case KEY_P:
                return "p";
+           case KEY_A:
+               return "a";
+           case KEY_S:
+               return "s";
+           case KEY_D:
+               return "d";
+           case KEY_F:
+               return "f";
+           case KEY_G:
+               return "g";
+           case KEY_H:
+               return "h";
+           case KEY_J:
+               return "j";
+           case KEY_K:
+               return "k";
+           case KEY_L:
+               return "l";
+           case KEY_Z:
+               return "z";
+           case KEY_X:
+               return "x";
+           case KEY_C:
+               return "c";
+           case KEY_V:
+               return "v";
+           case KEY_B:
+               return "b";
+           case KEY_N:
+               return "n";
+           case KEY_M:
+               return "m";
+           case KEY_ESC:
+               return "<esc>";
+           case KEY_MINUS:
+               return "<minus>";
+           case KEY_EQUAL:
+               return "<equal>";
+           case KEY_BACKSPACE:
+               return "<back_space>";
+           case KEY_TAB:
+               return "<tab>";
+           case KEY_LEFTCTRL:
+               return "<lctrl>";
+           case KEY_RIGHTCTRL:
+               return "<rctrl>";
+           case KEY_SEMICOLON:
+               return ";";
+           case KEY_LEFT:
+               return "<arrow_left>";
+           case KEY_RIGHT:
+               return "<arrow_right>";
+           case KEY_UP:
+               return "<arrow_up>";
+           case KEY_DOWN:
+               return "<arrow_down>";
            default:
-               return "nope";
+               return "<Unknown code:" + std::to_string(eventCode) + ">";
        }
     }
 }

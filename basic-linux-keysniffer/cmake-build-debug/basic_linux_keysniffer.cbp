@@ -84,16 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/KeyboardEventReader.cpp">
-			<Option target="basic_linux_keysniffer"/>
-		</Unit>
-		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/KeyboardEventReader.h">
-			<Option target="basic_linux_keysniffer"/>
-		</Unit>
 		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/consts.cpp">
 			<Option target="basic_linux_keysniffer"/>
 		</Unit>
 		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/consts.h">
+			<Option target="basic_linux_keysniffer"/>
+		</Unit>
+		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/keyboardEventReader.cpp">
+			<Option target="basic_linux_keysniffer"/>
+		</Unit>
+		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/keyboardEventReader.h">
 			<Option target="basic_linux_keysniffer"/>
 		</Unit>
 		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/main.cpp">

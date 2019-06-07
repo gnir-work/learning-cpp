@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/basic_linux_keysniffer.dir/main.cpp.o"
-  "CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.o"
+  "CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.o"
   "CMakeFiles/basic_linux_keysniffer.dir/io/consts.cpp.o"
   "CMakeFiles/basic_linux_keysniffer.dir/utils/keyboardEventUtils.cpp.o"
   "basic_linux_keysniffer.pdb"

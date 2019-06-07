@@ -123,33 +123,6 @@ basic_linux_keysniffer/fast:
 	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/build
 .PHONY : basic_linux_keysniffer/fast
 
-io/KeyboardEventReader.o: io/KeyboardEventReader.cpp.o
-
-.PHONY : io/KeyboardEventReader.o
-
-# target to build an object file
-io/KeyboardEventReader.cpp.o:
-	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.o
-.PHONY : io/KeyboardEventReader.cpp.o
-
-io/KeyboardEventReader.i: io/KeyboardEventReader.cpp.i
-
-.PHONY : io/KeyboardEventReader.i
-
-# target to preprocess a source file
-io/KeyboardEventReader.cpp.i:
-	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.i
-.PHONY : io/KeyboardEventReader.cpp.i
-
-io/KeyboardEventReader.s: io/KeyboardEventReader.cpp.s
-
-.PHONY : io/KeyboardEventReader.s
-
-# target to generate assembly for a file
-io/KeyboardEventReader.cpp.s:
-	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/KeyboardEventReader.cpp.s
-.PHONY : io/KeyboardEventReader.cpp.s
-
 io/consts.o: io/consts.cpp.o
 
 .PHONY : io/consts.o
@@ -176,6 +149,33 @@ io/consts.s: io/consts.cpp.s
 io/consts.cpp.s:
 	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/consts.cpp.s
 .PHONY : io/consts.cpp.s
+
+io/keyboardEventReader.o: io/keyboardEventReader.cpp.o
+
+.PHONY : io/keyboardEventReader.o
+
+# target to build an object file
+io/keyboardEventReader.cpp.o:
+	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.o
+.PHONY : io/keyboardEventReader.cpp.o
+
+io/keyboardEventReader.i: io/keyboardEventReader.cpp.i
+
+.PHONY : io/keyboardEventReader.i
+
+# target to preprocess a source file
+io/keyboardEventReader.cpp.i:
+	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.i
+.PHONY : io/keyboardEventReader.cpp.i
+
+io/keyboardEventReader.s: io/keyboardEventReader.cpp.s
+
+.PHONY : io/keyboardEventReader.s
+
+# target to generate assembly for a file
+io/keyboardEventReader.cpp.s:
+	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.s
+.PHONY : io/keyboardEventReader.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,12 +240,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... basic_linux_keysniffer"
 	@echo "... edit_cache"
-	@echo "... io/KeyboardEventReader.o"
-	@echo "... io/KeyboardEventReader.i"
-	@echo "... io/KeyboardEventReader.s"
 	@echo "... io/consts.o"
 	@echo "... io/consts.i"
 	@echo "... io/consts.s"
+	@echo "... io/keyboardEventReader.o"
+	@echo "... io/keyboardEventReader.i"
+	@echo "... io/keyboardEventReader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
