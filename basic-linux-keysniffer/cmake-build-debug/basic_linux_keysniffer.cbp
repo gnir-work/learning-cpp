@@ -96,6 +96,12 @@
 		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/keyboardEventReader.h">
 			<Option target="basic_linux_keysniffer"/>
 		</Unit>
+		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/utils.cpp">
+			<Option target="basic_linux_keysniffer"/>
+		</Unit>
+		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/utils.h">
+			<Option target="basic_linux_keysniffer"/>
+		</Unit>
 		<Unit filename="/home/gnir/Code/learning-cpp/basic-linux-keysniffer/main.cpp">
 			<Option target="basic_linux_keysniffer"/>
 		</Unit>

@@ -14,7 +14,7 @@ namespace KeyboardEventReader {
      * Opens the event keyboard file.
      * @return a file stream to the keyboard event file.
      */
-    std::ifstream getKeyboardEventFileStream();
+    std::ifstream getKeyboardEventFile();
 
     /**
      * Listens to the keyboard event file until there is a key press (all other events are ignored, check input.h

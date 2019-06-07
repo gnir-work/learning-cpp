@@ -177,6 +177,33 @@ io/keyboardEventReader.cpp.s:
 	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/keyboardEventReader.cpp.s
 .PHONY : io/keyboardEventReader.cpp.s
 
+io/utils.o: io/utils.cpp.o
+
+.PHONY : io/utils.o
+
+# target to build an object file
+io/utils.cpp.o:
+	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/utils.cpp.o
+.PHONY : io/utils.cpp.o
+
+io/utils.i: io/utils.cpp.i
+
+.PHONY : io/utils.i
+
+# target to preprocess a source file
+io/utils.cpp.i:
+	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/utils.cpp.i
+.PHONY : io/utils.cpp.i
+
+io/utils.s: io/utils.cpp.s
+
+.PHONY : io/utils.s
+
+# target to generate assembly for a file
+io/utils.cpp.s:
+	$(MAKE) -f CMakeFiles/basic_linux_keysniffer.dir/build.make CMakeFiles/basic_linux_keysniffer.dir/io/utils.cpp.s
+.PHONY : io/utils.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -246,6 +273,9 @@ help:
 	@echo "... io/keyboardEventReader.o"
 	@echo "... io/keyboardEventReader.i"
 	@echo "... io/keyboardEventReader.s"
+	@echo "... io/utils.o"
+	@echo "... io/utils.i"
+	@echo "... io/utils.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
