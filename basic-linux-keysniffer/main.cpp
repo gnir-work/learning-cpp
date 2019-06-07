@@ -5,9 +5,8 @@
 int main() {
     std::ifstream keyboardEventFile = KeyboardEventReader::getKeyboardEventFileStream();
     while (true) {
-        std::cout << "hello" << std::endl;
-        input_event test = KeyboardEventReader::getNextKeyPressEvent(keyboardEventFile);
-        std::cout << KeyboardEventUtils::convertEventCodeToString(test.code) << std::endl;
+        input_event inputEvent = KeyboardEventReader::getNextKeyPressEvent(keyboardEventFile);
+        std::cout << KeyboardEventUtils::convertEventCodeToString(inputEvent.code) << std::endl;
     }
 
 }

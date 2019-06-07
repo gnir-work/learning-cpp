@@ -6,17 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/KeyboardEventReader.h
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/consts.h
+
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/keyboardEventReader.cpp
+string
+-
+iostream
+-
+fstream
+-
+cstdlib
+-
+keyboardEventReader.h
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/keyboardEventReader.h
+consts.h
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/consts.h
+/usr/include/linux/input-event-codes.h
+-
+
+/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/keyboardEventReader.h
 fstream
 -
 /usr/include/linux/input.h
 -
-
-/home/gnir/Code/learning-cpp/basic-linux-keysniffer/main.cpp
-iostream
--
-io/KeyboardEventReader.h
-/home/gnir/Code/learning-cpp/basic-linux-keysniffer/io/KeyboardEventReader.h
 
 /usr/include/linux/input-event-codes.h
 
